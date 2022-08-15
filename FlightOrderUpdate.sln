@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightOrderUpdate", "FlightOrderUpdate\FlightOrderUpdate.csproj", "{216504CA-0356-4404-BC65-C0835D7760A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{216504CA-0356-4404-BC65-C0835D7760A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{216504CA-0356-4404-BC65-C0835D7760A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{216504CA-0356-4404-BC65-C0835D7760A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{216504CA-0356-4404-BC65-C0835D7760A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F7125CE-908F-4C3B-A777-6C0CAA2D82E1}
+	EndGlobalSection
+EndGlobal
