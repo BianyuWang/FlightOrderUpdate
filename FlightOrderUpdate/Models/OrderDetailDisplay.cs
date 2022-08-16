@@ -12,12 +12,13 @@ namespace FlightOrderSimulationConsole.Models
         public int AirLineId { get; set; }
         public int FlightId { get; set; }
         public int DepartureDate { get; set; }
-
+        //public bool IsAssigned {get;set;}  SRP??? 0==not assigned?
         public OrderDetailDisplay()
         {
             AirLineId = 0;
             FlightId = 0;
             DepartureDate=0;
+            //IsAssigned=false;
         }
     }
 }
