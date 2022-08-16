@@ -63,6 +63,11 @@ namespace FlightOrderUpdate.Service
                 flightList.Flights.ForEach(item => flights.Add(item));
             }
 
+
+         //var query = _dataAccessService.GetFlightScheduleList()
+         //.OrderBy(x => x.Flights.Min(s => s.FlightId))
+         //.ToList();
+           
             flights = flights.OrderBy(item => item.FlightId).ToList();
 
             foreach (var flight in flights)

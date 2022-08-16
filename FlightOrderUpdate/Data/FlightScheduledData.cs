@@ -27,12 +27,13 @@ namespace FlightOrderUpdate.Data
         new Flight{ FlightId=1,AirLineId=1},
         new Flight{ FlightId=3,AirLineId=3},
         new Flight{ FlightId=2,AirLineId=2},
+          new Flight{ FlightId=6,AirLineId=3},
         }},
                new FlightSchedule() {
         DepartureDate = 2,
         Flights= new List<Flight> {
         new Flight{ FlightId=4,AirLineId=1},
-        new Flight{ FlightId=6,AirLineId=3},
+      
         new Flight{ FlightId=5,AirLineId=2},
         }}
         };
